@@ -1,0 +1,120 @@
+/*===================== Select All==========================*/
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #101013;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*===================Id Selector===================*/
+#logo {
+    width: 80px;
+    border-radius: 50px;
+    margin: 30px;
+}
+
+/*================Select All <li> Elements which <ul> Element is parent============*/
+ul>li {
+    margin: 20px;
+    color: aliceblue;
+    list-style: none;
+}
+
+/*===================Element Selector================*/
+button {
+    width: 150px;
+    height: 50px;
+    margin: 30px;
+    font-size: x-large;
+    border: 2px solid darkcyan;
+    border-radius: 20px;
+    color: antiquewhite;
+}
+
+/*===============Pseudo Class Selector=================*/
+button:hover {
+    background-color: darkcyan;
+}
+
+/*===================Element Selector================*/
+h1 {
+    color: darkcyan;
+    margin-left: 450px;
+}
+
+/*===================Pseudo Element Selector===============*/
+h1::first-letter {
+    font-size: 60px;
+}
+
+/*===================Grouping Selector(Class,Element)================*/
+.para,
+p {
+    margin: 20px;
+    font-size: large;
+    word-spacing: 1px;
+    color: aliceblue;
+}
+
+/*===================Grouping Selector(Class,Element)================*/
+.heading,
+h2 {
+    color: darkcyan;
+    margin-left: 600px;
+}
+
+/*===================Id Selector================*/
+#img {
+    margin: 30px 350px;
+    width: 700px;
+}
+
+/*============Select All <img> Elements Inside <div> Element===========*/
+div img {
+    margin: 10px;
+}
+
+/*=================Element Selector(Select All <h3> Elements) ===============*/
+h3 {
+    color: rgb(109, 150, 150);
+    margin-left: 635px;
+    margin-top: 10px;
+}
+
+/*============Select Only The First <p> Element After <div> Element===========*/
+div+p {
+    color: #3997bd;
+}
+
+/*=============Slect All <p> Elements After <div> Element============*/
+section~p {
+    color: brown;
+}
+
+/*============Select <p> Element Inside Class Named(Art1)=============*/
+.Art1 p {
+    color: beige;
+}
+
+/*===========Select Class (.Art2-descendent) Inside Another Class (.Art2)=======*/
+.Art2 .Art2-descendent {
+    color: rgb(136, 136, 192);
+    margin: 30px;
+    font-size: large;
+}
+
+/*====================Element Selector==============*/
+label {
+    color: azure;
+    font-size: xx-large;
+    margin-left: 30px;
+}
+
+/*===============Atribute Selector===============*/
+input[type="text"] {
+    width: 350px;
+    height: 40px;
+    border: 2px solid darkcyan;
+    border-radius: 20px;
+    padding: 10px;
+}
